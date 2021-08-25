@@ -1,0 +1,34 @@
+img {
+  width: 300px;
+  height: 250px;
+}
+
+input[type="text"] {
+  width: 300px;
+  height: 30px;
+  margin: 5px;
+  padding: 7px 35px 10px 11px;
+  border: 1px solid #dadada; /*테두리 두께, 선스타일, 색상*/
+  /* outline: none;기본테두리안보이게*/
+}
+
+button {
+  cursor: pointer;
+}
+
+.login_button {
+  width: 350px;
+  height: 56px;
+  margin: 5px;
+  background-color: #03c75a;
+  border: solid 1px rgba(0, 0, 0, 0.1);
+  color: white;
+  font-size: 16px;
+  text-align: center;
+}
+
+.login_qr .login_number {
+  padding: 19px 0 13px;
+  background-color: white;
+  border: solid 1px #03c75a;
+}
