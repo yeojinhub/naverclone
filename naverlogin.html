@@ -3,28 +3,44 @@
   <head>
     <meta charset="utf-8" />
     <title>네이버</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
   </head>
   <body>
-    <div class="login">
-      <div class="header">
-        <a href="www.naver.com" alt="네이버">네이버</a>
-      </div>
-      <div class="main">
-        <input
-          type="text"
-          id="id"
-          name="id"
-          maxlength="20"
-          placeholder="아이디"
-        />
-        <input type="password" id="pwd" name="pwd" placeholder="비밀번호" />
-        <input type="button" id="login" name="login" />로그인
-        <span class="always">
-          <input type="checkbox" id="always" name="always" checked />
-          <label for="always">로그인 상태 유지</label>
+    <header>
+      <a href="http://www.naver.com" target="blank"><img src=img/naver.png></a>
+    </header>
+    <main>
+      <article>
+        <div class="id_area">
+          <input type="text" class="login_id" placeholder="아이디" />
+        </div>
+        <div class="pw_area">
+          <input type="text" class="login_password" placeholder="비밀번호" />
+        </div>
+        <button class="login_button" type="submit">로그인</button>
+      </article>
+      <input type="checkbox" id="always" name="always" checked />
+      <label for="always">로그인 상태 유지</label>
+    </main>
+    <h3>더욱 간편한 로그인</h3>
+    <div>
+      <div>
+        <span>
+          <button class="login_qr" type="button">QR코드 로그인</button>
+          <button class="login_number" type="button">일회용 번호 로그인</button>
         </span>
       </div>
-      <div class="footer">copyright All Rights Reserved.</div>
+      <div>
+        <span>
+          <a href="http://www.naver.com">아이디 찾기</a>
+          <a href="http://www.naver.com">비밀번호 찾기</a>
+          <a href="http://www.naver.com">회원가입</a>
+        </span>
+      </div>
     </div>
+    <footer>
+      <a href="www.naver.com" target="blank"><img src="img/naver.png" /></a
+      >Copyright © All Rights Reserved.
+    </footer>
   </body>
 </html>
